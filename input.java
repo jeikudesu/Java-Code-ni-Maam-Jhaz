@@ -1,14 +1,15 @@
 import java.util.Scanner;
 
-// Main class to run all activities
-public class OOPActivities {
-
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        // 1. Input (1 only)
+public class Main {
+    public static void main(String[] args){
+        Scanner myName = new Scanner(System.in);
         System.out.print("Enter your name: ");
-        String name = scanner.nextLine();
-        System.out.println("Hello, " + name);
+        String name = myName.nextLine();
+        System.out.println(name);
 
-        System.out.println();
+        Scanner myQuote = new Scanner(System.in);
+        System.out.print("Enter your quote: ");
+        String quote = myQuote.nextLine();
+        System.out.println(quote);
+    }
+}
